@@ -1,6 +1,6 @@
 # Define variables
 variable "aws_region" {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "instance_name" {
@@ -8,15 +8,15 @@ variable "instance_name" {
 }
 
 variable "key_name" {
-  default = "udemy.pem"
+  default = "mumbai.pem"
 }
 
 variable "security_group_id" {
-  default = "sg-09947aa36d4d8ebb2"
+  default = "sg-0e2c22e36dc10d118"
 }
 
 variable "vpc_id" {
-  default = "vpc-04015f3645142a1fa"
+  default = "vpc-0e7f18d86bac2affe"
 }
 
 variable "instance_type" {
@@ -24,7 +24,7 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  default = "ami-007855ac798b5175e"
+  default = "ami-02eb7a4783e7e9317"
 }
 
 # Define EC2 instance resource
