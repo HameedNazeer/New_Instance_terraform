@@ -9,10 +9,10 @@ variable "key_name" {
   default = "mumbai.pem"
 }
 variable "security_group_id" {
-  default = "sg-09947aa36d4d8ebb2"
+  default = "sg-0e2c22e36dc10d118"
 }
 variable "vpc_id" {
-  default = "vpc-0e7f18d86bac2affe"
+  default = "subnet-0a9a7b987b0b2197c"
 }
 variable "instance_type" {
   default = "t2.micro"
