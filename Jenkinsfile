@@ -3,7 +3,7 @@ pipeline {
 	
 	stages{
 		stage('Checkout'){
-			git 'https://github.com/sandeepajay1/EC2_create.git'
+			git 'https://github.com/HameedNazeer/New_Instance_terraform.git'
 			}
 		}
 		stage('terraform init'){
@@ -17,4 +17,5 @@ pipeline {
 				sh 'terraform apply -auto approve'
 				}
 			}
+}
 }
