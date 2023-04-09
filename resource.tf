@@ -6,7 +6,7 @@ variable "instance_name" {
   default = "deploy to test"
 }
 variable "key_name" {
-  default = "mumbaikey.pem"
+  default = "mumbaikey"
 }
 variable "security_group_id" {
   default = "sg-0e2c22e36dc10d118"
